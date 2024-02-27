@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+/* banner section styles */
+.banner, .hot-deal{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+button{
+    border-radius: 8px;
+    background:#e55473;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    background: #e698a9;
+}
+.section-heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 209px auto;
+}
+.section-heading h2{
+ color: #272727;
+ align-items: center;
+ font-family: lato;
+ font-size: 40px;
+ font-weight: 800;
+ margin-bottom: 16px;
+}
+.container{
+    width: 75%;
+    max-width:1440px;
+    margin: 0 auto;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-container .banner-text *{
+    margin-bottom: 62px;
+    max-width: 525px;
+}
+.banner-container .banner-text h1{
+    font-family: lato;
+    font-size: 60px;
+    font-weight: 800;
+}.banner-container 
+.banner-img img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* featured section styles */
+#featured{
+    padding: 100px 0;
+}
+.section-content{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+
+  
+}
+.section-content .flower .flower-img{
+    background-color: #e698a9;
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    width: 300px;
+}
+
+.section-content .flower .flower-img img{
+    width: 100%;
+}
+.section-content .flower .pink{
+    background-color:rgba(167, 33, 98, 0.15) ;
+}
+.section-content .flower .blue{
+    background-color:rgba(5, 151, 160, 0.15);
+}
+.section-content .flower .gray{
+    background-color:rgba(71, 125, 17, 0.15);
+}
+.section-content .flower p{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 16px;
+}
+
+/* token styles */
+.token{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+    
+}
+.token-section{
+    width: 50%;
+    /* max-width: 700px; */
+    background-color: rgb(247, 235, 235);
+    border:lightslategray ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 50px;
+}
+.token-img img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.token-img{
+
+}
+.token-1 p {
+    text-align: center;
+}
+/* hot deal section styles */
+.hot-deal-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+
+.hot-deal-text{
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+   
+}
+.hot-deal-text *{
+    margin-bottom: 24px;
+}
+.hot-deal-text h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+  
+}
+.importent{
+    color: #E55473;
+}
+.hot-deal-img {
+    max-width: 318px;
+
+}
+/* insta section style */
+.insta-heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 209px auto;
+}
+#instagram{
+    margin-bottom: 40px;
+}
+.insta-heading h2{
+    color: #272727;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.section-content-insta{
+    display: flex;
+    align-items: end;
+  justify-content: center;
+}
+.section-content-insta .flower-insta .flower-img-insta{
+    padding: 10px 10px 0;
+    height: 300px;
+    display: flex;
+    align-items: end;
+    width: 350px;
+}
+.section-content-insta .flower-insta .flower-img-insta img{
+    width: 100%;
+    border-radius: 5px;
+}
