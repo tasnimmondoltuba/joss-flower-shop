@@ -34,7 +34,7 @@ button:hover{
 .section-heading{
     max-width: 500px;
     text-align: center;
-    margin: 209px auto;
+    margin: 109px auto;
 }
 .section-heading h2{
  color: #272727;
@@ -76,8 +76,6 @@ button:hover{
     display: flex;
     align-items: end;
     justify-content: space-around;
-
-  
 }
 .section-content .flower .flower-img{
     background-color: #e698a9;
@@ -204,4 +202,45 @@ button:hover{
 .section-content-insta .flower-insta .flower-img-insta img{
     width: 100%;
     border-radius: 5px;
+}
+/* deals section styles */
+.text{
+    padding-top: 140px;
+}
+#news-letter{
+    margin-bottom: 128px;
+}
+.news-letter-main{
+    background-image: url('../Flower-Asset/Rectangle\ 9.png');
+   background-repeat: no-repeat;
+
+}
+#news-letter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 128px;
+}
+#news-letter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    
+}
+/* footer styles */
+.footer{
+    text-align: center;
+    background-color: #272727;
+    padding: 100px 0;
+    color: white;
+}
+.footer *{
+    margin: 5px;
+}
+.footer p{
+    color: white;
 }
